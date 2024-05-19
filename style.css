@@ -1,0 +1,360 @@
+@charset "UTF-8";
+body {
+  background: #171717;
+}
+
+.header {
+  background-color: #171717;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+.header__logo {
+  margin-right: 670px;
+  margin-top: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* Text 1 */
+  color: #FAFAF9;
+  transition: 0.7s;
+}
+.header__logo:hover {
+  font-size: 32px;
+}
+.header__nav {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.header-nav__link {
+  font-size: 16px;
+  color: #a29e9e;
+  margin-left: 25px;
+  margin-right: 15px;
+  margin-top: 22px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  max-width: 1350px;
+  margin: 0 auto;
+  justify-content: space-between;
+  /*CARD 2*/ /*CARD 2*/ /*CARD 2*/ /*CARD 2*/ /*CARD 2*/
+  /*CARD 3*/ /*CARD 3*/ /*CARD 3*/ /*CARD 3*/ /*CARD 3*/
+  /*CARD 4*/ /*CARD 4*/ /*CARD 4*/ /*CARD 4*/ /*CARD 4*/
+}
+.main__title {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 172px;
+  line-height: 170px;
+  /* or 99% */
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  /* Text 1 */
+  color: #FAFAF9;
+}
+.main__info {
+  /* body-text */
+  font-family: "Inter";
+  margin-top: -35px;
+  font-style: normal;
+  width: 470px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.5px;
+  /* Text 2 */
+  color: rgba(172, 172, 170, 0.65);
+}
+.main__button {
+  background: #E6533C;
+  border-radius: 15px;
+  max-width: 150px;
+  text-align: center;
+  padding: 14px 15px;
+  color: #FFFFFF;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  transition: 0.7s;
+  margin-left: 15px;
+  cursor: pointer;
+  /* identical to box height, or 122% */
+  letter-spacing: 1px;
+}
+.main__button:hover {
+  color: #9e1e0b;
+  background-color: #560d02;
+  transform: scale(1.2);
+}
+.main__fotter-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  letter-spacing: 1px;
+  /* Text 2 */
+  color: rgba(239, 237, 232, 0.65);
+}
+.main__input {
+  cursor: pointer;
+  display: none;
+}
+.main__screen-2-h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.3px;
+  /* Text 1 */
+  color: #FAFAF9;
+}
+.main__screen-2-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.5px;
+  /* Text 2 */
+  color: rgba(239, 237, 232, 0.65);
+}
+.main__cards {
+  display: inline-flex;
+}
+.main__card-1 {
+  cursor: pointer;
+  border-radius: 15px;
+  background: #323443;
+  max-width: 400px;
+  padding: 15px 15px;
+  margin: 0px 15px;
+}
+.main__card-1-h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.5px;
+  /* Text 1 */
+  color: #FAFAF9;
+}
+.main__card-1-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.3px;
+  /* Text 2 */
+  color: rgba(239, 237, 232, 0.65);
+}
+.main__card-2 {
+  cursor: pointer;
+  border-radius: 15px;
+  background: #232532;
+  max-width: 400px;
+  padding: 15px 15px;
+  margin: 0px 15px;
+}
+.main__card-2-h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.5px;
+  /* Text 1 */
+  color: #FAFAF9;
+}
+.main__card-2-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.3px;
+  /* Text 2 */
+  color: rgba(239, 237, 232, 0.65);
+}
+.main__card-3 {
+  margin: 0px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  background: #323443;
+  max-width: 400px;
+  padding: 15px 15px;
+}
+.main__card-3-h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.5px;
+  /* Text 1 */
+  color: #FAFAF9;
+}
+.main__card-3-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.3px;
+  /* Text 2 */
+  color: rgba(239, 237, 232, 0.65);
+}
+.main__card-4 {
+  margin: 0px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  background: #4F5261;
+  max-width: 400px;
+  padding: 15px 15px;
+}
+.main__card-4-h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.5px;
+  /* Text 1 */
+  color: #FAFAF9;
+}
+.main__card-4-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.3px;
+  /* Text 2 */
+  color: rgba(239, 237, 232, 0.65);
+}
+
+.main__input[type=checkbox]:checked ~ .main__modal_video {
+  opacity: 1;
+}
+
+.main__input[type=checkbox]:checked ~ .main__Video {
+  opacity: 1;
+  animation: step-start;
+}
+
+.main__modal_video {
+  opacity: 0;
+  transition: 0.6s;
+  align-items: start;
+  text-align: start;
+  bottom: 0;
+  width: 850px;
+  height: 250px;
+}
+
+.main__Video {
+  display: flex;
+  border-radius: 15px;
+  transform: translateX(350px);
+  animation: videows 12s cubic-bezier(0.075, 0.82, 0.165, 1);
+  position: absolute;
+  z-index: 120;
+}
+
+@keyframes videows {
+  0% {
+    transform: translateX(-700px);
+  }
+  100% {
+    transform: translateX(350px);
+  }
+}
+.main__img-man {
+  position: absolute;
+  top: 230px;
+  right: 380px;
+  display: block;
+}
+
+.main__img-km {
+  position: absolute;
+  top: 180px;
+  right: 270px;
+  display: block;
+}
+
+.main__img-tutorial {
+  position: absolute;
+  top: 500px;
+  right: 650px;
+  display: block;
+}
+
+.main__img-freevideo {
+  position: absolute;
+  top: 550px;
+  right: 200px;
+  display: block;
+}
+
+/* Стилі для великих екранів (дисплей максимум 1199рх) */
+@media (max-width: 1199px) {
+  body {
+    background: #2e2e0a;
+  }
+  .main__img-man {
+    display: none;
+  }
+  .main__img-freevideo {
+    display: none;
+  }
+  .main__img-km {
+    display: none;
+  }
+  .main__img-tutorial {
+    display: none;
+  }
+}
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+@media (max-width: 991px) {
+  .header__nav {
+    display: none;
+  }
+  .main__cards {
+    display: block;
+    flex-direction: column;
+  }
+  h1 {
+    max-width: 10px;
+    height: 100%;
+  }
+}
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+/* Стилі для дуже малих екранів (дисплей максимум 575рх)*//*# sourceMappingURL=style.css.map */
